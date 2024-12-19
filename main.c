@@ -60,7 +60,7 @@ void livro_exibe(pLivro livros, int qtde){
     int i;
     for(i = 0; i < qtde; i++){
         int j = i;
-        printf("Livro: %d\nNome: %s\nISBN: %s\n Preço: %f\n Score: %d\nEditora: %s\n",++j, 
+        printf("Livro: %d\nNome: %sISBN: %sPreço: %f\nScore: %d\nEditora: %s\n",++j, 
         livros[i].Title,livros[i].Isbn,livros[i].Preco,livros[i].Score,livros[i].Editora);
         j = 0;
     }
